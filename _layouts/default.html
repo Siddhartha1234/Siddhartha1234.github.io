@@ -33,6 +33,7 @@
               </p>
               <p style="text-align:center">
                 <a href="mailto:es15btech11018@iith.ac.in"> Email</a> &nbsp;/&nbsp;
+                <a href="/pdfs/cv.pdf">CV</a> &nbsp;/&nbsp;
                 <a href="https://github.com/Siddhartha1234"> GitHub</a> &nbsp;/&nbsp;
                 <a href="www.linkedin.com/in/siddharthamishra1997"> LinkedIn </a>
               </p>
@@ -46,7 +47,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Research</h2>
+              <h2>Interests</h2>
               <p>
                 I'm interested in statistical/Bayesian machine learning, computer vision and Natural Language Processing.
               </p>
@@ -57,7 +58,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Other Projects</h2>
+              <h2>Research/Projects</h2>
               <p> These include course projects, thesis and research work.
               </p>
             </td>
@@ -81,39 +82,19 @@
               {% if post.website %}
               <a href="{{post.website}}">website</a> /
               {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
-              {% endif %}
-              {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
-              {% endif %}
-              {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
+              {% if post.report %}
+              <a href="{{post.report}}">report</a> /
               {% endif %}
               {% if post.slides %}
               <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}">code</a> /
               {% endif %}
               <p></p>
               {{ post.excerpt }}
             </td>
           </tr>
-          {% endif %}
-          {% endfor %}
           {% endfor %}
         </table>
 
