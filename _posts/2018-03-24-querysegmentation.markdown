@@ -2,7 +2,7 @@
 layout: post
 title:  "Query Segmentation using LSTMs"
 date:   2018-03-24 18:08:39 +00:00
-image: /images/querysegimg.jpg
+image: /images/querysegimg.png
 categories: research 
 course: "Information Retrieval"
 author: "Siddhartha Mishra"
