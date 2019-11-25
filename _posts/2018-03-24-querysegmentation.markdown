@@ -12,4 +12,6 @@ report: pdfs/querysegmentation-report.pdf
 subtitle: "Segmenting queries effectively into phrases using bi directional LSTMs"
 ---
 
+Mapped the problem to that of a sequence tagging problem with binary labels to create/not create a new segment.
+Used Bidirectional LSTMs with/without CRF layer to obtain better performance than existing methods.
 
